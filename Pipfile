@@ -8,6 +8,8 @@ django = "*"
 markdown = "*"
 djangorestframework = "*"
 django-crontab = "*"
+pillow = "*"
+pyzbar = "*"
 
 [dev-packages]
 

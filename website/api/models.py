@@ -7,6 +7,7 @@ class ValidationRequest(models.Model):
         EXPIRED = "expired"
         VALID = "valid"
         FRAUD = "fraud"
+        ERROR = "error"
 
     name = models.CharField(
         max_length=128
